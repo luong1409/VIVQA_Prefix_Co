@@ -1,0 +1,48 @@
+2023-05-04 21:20:49,918 INFO    StreamThr :6501 [internal.py:wandb_internal():89] W&B internal server running at pid: 6501, started at: 2023-05-04 21:20:49.917265
+2023-05-04 21:20:49,926 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: status
+2023-05-04 21:20:49,934 INFO    WriterThread:6501 [datastore.py:open_for_write():85] open: ./result/wandb/run-20230504_212049-07lzqcun/run-07lzqcun.wandb
+2023-05-04 21:20:49,938 DEBUG   SenderThread:6501 [sender.py:send():375] send: header
+2023-05-04 21:20:49,938 DEBUG   SenderThread:6501 [sender.py:send():375] send: run
+2023-05-04 21:20:50,737 INFO    SenderThread:6501 [dir_watcher.py:__init__():219] watching files in: ./result/wandb/run-20230504_212049-07lzqcun/files
+2023-05-04 21:20:50,737 INFO    SenderThread:6501 [sender.py:_start_run_threads():1127] run started: 07lzqcun with start time 1683210049.913199
+2023-05-04 21:20:50,737 DEBUG   SenderThread:6501 [sender.py:send_request():402] send_request: summary_record
+2023-05-04 21:20:50,738 INFO    SenderThread:6501 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-04 21:20:50,740 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: check_version
+2023-05-04 21:20:50,741 DEBUG   SenderThread:6501 [sender.py:send_request():402] send_request: check_version
+2023-05-04 21:20:51,000 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: run_start
+2023-05-04 21:20:51,013 DEBUG   HandlerThread:6501 [system_info.py:__init__():31] System info init
+2023-05-04 21:20:51,013 DEBUG   HandlerThread:6501 [system_info.py:__init__():46] System info init done
+2023-05-04 21:20:51,013 INFO    HandlerThread:6501 [system_monitor.py:start():181] Starting system monitor
+2023-05-04 21:20:51,015 INFO    HandlerThread:6501 [system_monitor.py:probe():201] Collecting system info
+2023-05-04 21:20:51,015 INFO    SystemMonitor:6501 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-04 21:20:51,018 INFO    SystemMonitor:6501 [interfaces.py:start():190] Started cpu monitoring
+2023-05-04 21:20:51,022 INFO    SystemMonitor:6501 [interfaces.py:start():190] Started disk monitoring
+2023-05-04 21:20:51,025 INFO    SystemMonitor:6501 [interfaces.py:start():190] Started gpu monitoring
+2023-05-04 21:20:51,030 INFO    SystemMonitor:6501 [interfaces.py:start():190] Started memory monitoring
+2023-05-04 21:20:51,032 INFO    SystemMonitor:6501 [interfaces.py:start():190] Started network monitoring
+2023-05-04 21:20:51,098 DEBUG   HandlerThread:6501 [system_info.py:probe():195] Probing system
+2023-05-04 21:20:51,110 DEBUG   HandlerThread:6501 [git.py:repo():40] git repository is invalid
+2023-05-04 21:20:51,110 DEBUG   HandlerThread:6501 [system_info.py:probe():240] Probing system done
+2023-05-04 21:20:51,110 DEBUG   HandlerThread:6501 [system_monitor.py:probe():210] {'os': 'Linux-5.15.0-69-generic-x86_64-with-debian-buster-sid', 'python': '3.7.13', 'heartbeatAt': '2023-05-04T14:20:51.098635', 'startedAt': '2023-05-04T14:20:49.893513', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/vqa_mplug/pretrain.py', 'codePath': 'pretrain.py', 'host': '69557074c75f', 'username': 'root', 'executable': '/opt/conda/envs/coca/bin/python', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2559.7111874999996, 'min': 1000.0, 'max': 4000.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2667.743, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 3041.635, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 3043.006, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 3043.77, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2780.606, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2985.984, 'min': 1000.0, 'max': 4000.0}, {'current': 2674.943, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2803.64, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2828.297, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2936.347, 'min': 1000.0, 'max': 4000.0}, {'current': 2673.662, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2677.495, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}, {'current': 2200.0, 'min': 1000.0, 'max': 4000.0}], 'disk': {'total': 3518.6611328125, 'used': 3371.664161682129}, 'gpu': 'NVIDIA A100-PCIE-40GB', 'gpu_count': 3, 'gpu_devices': [{'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}, {'name': 'NVIDIA A100-PCIE-40GB', 'memory_total': 42949672960}], 'memory': {'total': 251.3574981689453}}
+2023-05-04 21:20:51,110 INFO    HandlerThread:6501 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-04 21:20:51,110 INFO    HandlerThread:6501 [system_monitor.py:probe():214] Publishing system info
+2023-05-04 21:20:51,111 DEBUG   HandlerThread:6501 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-05-04 21:20:51,112 DEBUG   HandlerThread:6501 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-04 21:20:51,112 DEBUG   HandlerThread:6501 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-05-04 21:20:51,748 INFO    Thread-17 :6501 [dir_watcher.py:_on_file_created():278] file/dir created: ./result/wandb/run-20230504_212049-07lzqcun/files/requirements.txt
+2023-05-04 21:20:51,749 INFO    Thread-17 :6501 [dir_watcher.py:_on_file_created():278] file/dir created: ./result/wandb/run-20230504_212049-07lzqcun/files/conda-environment.yaml
+2023-05-04 21:20:51,750 INFO    Thread-17 :6501 [dir_watcher.py:_on_file_created():278] file/dir created: ./result/wandb/run-20230504_212049-07lzqcun/files/wandb-summary.json
+2023-05-04 21:20:56,383 DEBUG   HandlerThread:6501 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-04 21:20:56,396 INFO    HandlerThread:6501 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-04 21:20:56,418 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: status_report
+2023-05-04 21:20:56,419 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: keepalive
+2023-05-04 21:20:56,421 DEBUG   SenderThread:6501 [sender.py:send():375] send: files
+2023-05-04 21:20:56,421 INFO    SenderThread:6501 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-04 21:20:56,439 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-04 21:20:56,442 DEBUG   SenderThread:6501 [sender.py:send_request():402] send_request: stop_status
+2023-05-04 21:20:56,742 INFO    Thread-17 :6501 [dir_watcher.py:_on_file_modified():295] file/dir modified: ./result/wandb/run-20230504_212049-07lzqcun/files/conda-environment.yaml
+2023-05-04 21:20:56,742 INFO    Thread-17 :6501 [dir_watcher.py:_on_file_created():278] file/dir created: ./result/wandb/run-20230504_212049-07lzqcun/files/wandb-metadata.json
+2023-05-04 21:20:56,796 DEBUG   SenderThread:6501 [sender.py:send():375] send: telemetry
+2023-05-04 21:20:57,283 INFO    wandb-upload_0:6501 [upload_job.py:push():137] Uploaded file /tmp/tmpjnw8tvk2wandb/832drlo2-wandb-metadata.json
+2023-05-04 21:21:00,798 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: status_report
+2023-05-04 21:21:05,799 DEBUG   HandlerThread:6501 [handler.py:handle_request():144] handle_request: status_report

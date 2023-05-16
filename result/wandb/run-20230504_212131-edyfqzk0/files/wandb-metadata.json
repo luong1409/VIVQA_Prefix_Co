@@ -1,0 +1,287 @@
+{
+    "os": "Linux-5.15.0-69-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.13",
+    "heartbeatAt": "2023-05-04T14:21:32.475293",
+    "startedAt": "2023-05-04T14:21:31.165625",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/vqa_mplug/pretrain.py",
+    "codePath": "pretrain.py",
+    "host": "69557074c75f",
+    "username": "root",
+    "executable": "/opt/conda/envs/coca/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 2610.4691041666665,
+        "min": 1000.0,
+        "max": 4000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2791.209,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2791.427,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2616.731,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2792.186,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2792.951,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2793.322,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2752.581,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2486.297,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2793.802,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2794.096,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2763.976,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2619.593,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2794.836,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2600.011,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2795.211,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2795.29,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2794.031,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2796.012,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2626.84,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2796.636,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2796.715,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2571.632,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2797.087,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2797.364,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2609.169,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2777.262,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2513.424,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2798.731,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2596.303,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2200.0,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2590.163,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2816.78,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2799.484,
+            "min": 1000.0,
+            "max": 4000.0
+        },
+        {
+            "current": 2799.744,
+            "min": 1000.0,
+            "max": 4000.0
+        }
+    ],
+    "disk": {
+        "total": 3518.6611328125,
+        "used": 3371.664279937744
+    },
+    "gpu": "NVIDIA A100-PCIE-40GB",
+    "gpu_count": 3,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        },
+        {
+            "name": "NVIDIA A100-PCIE-40GB",
+            "memory_total": 42949672960
+        }
+    ],
+    "memory": {
+        "total": 251.3574981689453
+    }
+}

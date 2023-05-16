@@ -1,0 +1,183 @@
+[32m2023-05-04 21:59:07.323[39m | [34m[1mDEBUG   [39m[22m | [36m__main__[39m:[36mmain[39m:[36m104[39m - [34m[1mjob dir: /home/vqa_mplug
+[32m2023-05-04 21:59:07.324[39m | [34m[1mDEBUG   [39m[22m | [36m__main__[39m:[36mmain[39m:[36m105[39m - [34m[1mNamespace(accum_iter=1,
+[34m[1mbase_lr=0.0005,
+[34m[1mbatch_size=16,
+[34m[1mcheckpoint_path='',
+[34m[1mdata_root='',
+[34m[1mdataset_names=['custom'],
+[34m[1mdevice='cuda',
+[34m[1mepochs=10,
+[34m[1mlr=None,
+[34m[1mmodel='',
+[34m[1mnum_workers=4,
+[34m[1moutput_dir='./result',
+[34m[1mpin_memory=True,
+[34m[1mprint_every=1,
+[34m[1mrandom_prefix_len=False,
+[34m[1mresume=None,
+[34m[1mrun_id=None,
+[34m[1mrun_name='',
+[34m[1msave_every=1,
+[34m[1mseed=0,
+[34m[1mstart_epoch=0,
+[34m[1mwarmup_steps=3000)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 41886/41886 [00:00<00:00, 182240.92it/s]
+Using cache
+Using cache
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10472/10472 [00:00<00:00, 181021.73it/s]
+[32m2023-05-04 21:59:21.893[39m | [31m[1mERROR   [39m[22m | [36m__main__[39m:[36m<module>[39m:[36m301[39m - [31m[1mSomething wrong
+[33m[1mTraceback (most recent call last):
+  File "/opt/conda/envs/coca/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='__main__', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f14e05d4d10>, origin='/root/.vsc...
+  File "/opt/conda/envs/coca/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7f14e05d7780, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/[1m__main__.py[39m[22m", line [33m39[39m, in [35m<module>
+    [1mcli[35m.[39mmain()
+    [36m│   └ [1m<function main at 0x7f14df0fd050>
+    [36m└ [1m<module 'debugpy.server.cli' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/a...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/[1mcli.py[39m[22m", line [33m430[39m, in [35mmain
+    [1mrun()
+    [36m└ [1m<function run_file at 0x7f14df0fbdd0>
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/[1mcli.py[39m[22m", line [33m284[39m, in [35mrun_file
+    [1mrunpy[35m.[39mrun_path(target,[22m [1mrun_name[35m=[36m[22m"__main__"[39m[1m)
+    [36m│     │        └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m│     └ [1m<function run_path at 0x7f14df517a70>
+    [36m└ [1m<module '_pydevd_bundle.pydevd_runpy' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m322[39m, in [35mrun_path
+    [1mpkg_name[35m=[39mpkg_name,[22m [1mscript_name[35m=[39mfname)
+    [36m         │                     └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m         └ [1m''
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m136[39m, in [35m_run_module_code
+    [1mmod_name,[22m [1mmod_spec,[22m [1mpkg_name,[22m [1mscript_name)
+    [36m│         │         │         └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m│         │         └ [1m''
+    [36m│         └ [1mNone
+    [36m└ [1m'__main__'
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m124[39m, in [35m_run_code
+    [1mexec(code,[22m [1mrun_globals)
+    [36m     │     └ [1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/vqa_mpl...
+    [36m     └ [1m<code object <module> at 0x7f14de0b9780, file "/home/vqa_mplug/pretrain.py", line 1>
+> File "[32m/home/vqa_mplug/[1mpretrain.py[39m[22m", line [33m298[39m, in [35m<module>
+    [1mmain(args,[22m [1mrun)
+    [36m│    │     └ [1m<wandb.sdk.wandb_run.Run object at 0x7f13af198190>
+    [36m│    └ [1mNamespace(accum_iter=1, base_lr=0.0005, batch_size=16, checkpoint_path='', data_root='', dataset_names=['custom'], device='cu...
+    [36m└ [1m<function main at 0x7f13af236cb0>
+  File "[32m/home/vqa_mplug/[1mpretrain.py[39m[22m", line [33m155[39m, in [35mmain
+    [1mmodel[22m [35m[1m=[39m[22m [1mMPlugForImageCaption(config[35m=[39mconfig)
+    [36m        │                           └ [1mMPlugConfig {
+    [36m        │                             [1m  "add_object": false,
+    [36m        │                             [1m  "add_ocr": false,
+    [36m        │                             [1m  "alpha": 0.4,
+    [36m        │                             [1m  "attention_probs_dropout_prob": 0.0,
+    [36m        │                             [1m  "batch_size...
+    [36m        └ [1m<class 'model.modeling_mplug.MPlugForImageCaption'>
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m2134[39m, in [35m__init__
+    [1msuper()[35m.[39m__init__(config)
+    [36m                 └ [1mMPlugConfig {
+    [36m                   [1m  "add_object": false,
+    [36m                   [1m  "add_ocr": false,
+    [36m                   [1m  "alpha": 0.4,
+    [36m                   [1m  "attention_probs_dropout_prob": 0.0,
+    [36m                   [1m  "batch_size...
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m1843[39m, in [35m__init__
+    [1mself[35m.[39mconfig_fusion,[22m [1madd_pooling_layer[35m=[36mFalse[39m)
+    [36m│    └ [1mBertConfig {
+    [36m│      [1m  "architectures": [
+    [36m│      [1m    "BertForMaskedLM"
+    [36m│      [1m  ],
+    [36m│      [1m  "attention_probs_dropout_prob": 0.1,
+    [36m│      [1m  "classifier_dropout": n...
+    [36m└ [1mMPlugForImageCaption(
+    [36m  [1m  (visn_fc): Linear(in_features=1024, out_features=768, bias=True)
+    [36m  [1m  (visn_layer_norm): LayerNorm((768,...
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m1277[39m, in [35m__init__
+    [1mself[35m.[39mencoder[22m [35m[1m=[39m[22m [1mFusionEncoder(config)
+    [36m│              │             └ [1mBertConfig {
+    [36m│              │               [1m  "architectures": [
+    [36m│              │               [1m    "BertForMaskedLM"
+    [36m│              │               [1m  ],
+    [36m│              │               [1m  "attention_probs_dropout_prob": 0.1,
+    [36m│              │               [1m  "classifier_dropout": n...
+    [36m│              └ [1m<class 'model.modeling_mplug.FusionEncoder'>
+    [36m└ [1mFusionModel()
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m632[39m, in [35m__init__
+    [1m[FusionLayer(config,[22m [1mi)[22m [35m[1mfor[39m[22m [1mi[22m [35m[1min[39m[22m [1mrange(config[35m.[39mnum_hidden_layers)])
+    [36m │           │                         │      └ [1m12
+    [36m │           │                         └ [1mBertConfig {
+    [36m │           │                           [1m  "architectures": [
+    [36m │           │                           [1m    "BertForMaskedLM"
+    [36m │           │                           [1m  ],
+    [36m │           │                           [1m  "attention_probs_dropout_prob": 0.1,
+    [36m │           │                           [1m  "classifier_dropout": n...
+    [36m │           └ [1mBertConfig {
+    [36m │             [1m  "architectures": [
+    [36m │             [1m    "BertForMaskedLM"
+    [36m │             [1m  ],
+    [36m │             [1m  "attention_probs_dropout_prob": 0.1,
+    [36m │             [1m  "classifier_dropout": n...
+    [36m └ [1m<class 'model.modeling_mplug.FusionLayer'>
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m632[39m, in [35m<listcomp>
+    [1m[FusionLayer(config,[22m [1mi)[22m [35m[1mfor[39m[22m [1mi[22m [35m[1min[39m[22m [1mrange(config[35m.[39mnum_hidden_layers)])
+    [36m │           │       │      │          │      └ [1m12
+    [36m │           │       │      │          └ [1mBertConfig {
+    [36m │           │       │      │            [1m  "architectures": [
+    [36m │           │       │      │            [1m    "BertForMaskedLM"
+    [36m │           │       │      │            [1m  ],
+    [36m │           │       │      │            [1m  "attention_probs_dropout_prob": 0.1,
+    [36m │           │       │      │            [1m  "classifier_dropout": n...
+    [36m │           │       │      └ [1m0
+    [36m │           │       └ [1m0
+    [36m │           └ [1mBertConfig {
+    [36m │             [1m  "architectures": [
+    [36m │             [1m    "BertForMaskedLM"
+    [36m │             [1m  ],
+    [36m │             [1m  "attention_probs_dropout_prob": 0.1,
+    [36m │             [1m  "classifier_dropout": n...
+    [36m └ [1m<class 'model.modeling_mplug.FusionLayer'>
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m465[39m, in [35m__init__
+    [1mself[35m.[39mcrossattention[22m [35m[1m=[39m[22m [1mBertAttention(config,[22m [1mis_cross_attention[35m=[36mTrue[39m)
+    [36m│                     │             └ [1mBertConfig {
+    [36m│                     │               [1m  "architectures": [
+    [36m│                     │               [1m    "BertForMaskedLM"
+    [36m│                     │               [1m  ],
+    [36m│                     │               [1m  "attention_probs_dropout_prob": 0.1,
+    [36m│                     │               [1m  "classifier_dropout": n...
+    [36m│                     └ [1m<class 'model.modeling_mplug.BertAttention'>
+    [36m└ [1mFusionLayer(
+    [36m  [1m  (attention): BertAttention(
+    [36m  [1m    (self): BertSelfAttention(
+    [36m  [1m      (query): Linear(in_features=768, out_features...
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m373[39m, in [35m__init__
+    [1mself[35m.[39mself[22m [35m[1m=[39m[22m [1mBertSelfAttention(config,[22m [1mis_cross_attention)
+    [36m│           │                 │       └ [1mTrue
+    [36m│           │                 └ [1mBertConfig {
+    [36m│           │                   [1m  "architectures": [
+    [36m│           │                   [1m    "BertForMaskedLM"
+    [36m│           │                   [1m  ],
+    [36m│           │                   [1m  "attention_probs_dropout_prob": 0.1,
+    [36m│           │                   [1m  "classifier_dropout": n...
+    [36m│           └ [1m<class 'model.modeling_mplug.BertSelfAttention'>
+    [36m└ [1mBertAttention()
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m218[39m, in [35m__init__
+    [1mself[35m.[39mkey[22m [35m[1m=[39m[22m [1mnn[35m.[39mLinear(config[35m.[39mencoder_width,[22m [1mself[35m.[39mall_head_size)
+    [36m│          │  │      │                     │    └ [1m768
+    [36m│          │  │      │                     └ [1mBertSelfAttention(
+    [36m│          │  │      │                       [1m  (query): Linear(in_features=768, out_features=768, bias=True)
+    [36m│          │  │      │                       [1m)
+    [36m│          │  │      └ [1mBertConfig {
+    [36m│          │  │        [1m  "architectures": [
+    [36m│          │  │        [1m    "BertForMaskedLM"
+    [36m│          │  │        [1m  ],
+    [36m│          │  │        [1m  "attention_probs_dropout_prob": 0.1,
+    [36m│          │  │        [1m  "classifier_dropout": n...
+    [36m│          │  └ [1m<class 'torch.nn.modules.linear.Linear'>
+    [36m│          └ [1m<module 'torch.nn' from '/opt/conda/envs/coca/lib/python3.7/site-packages/torch/nn/__init__.py'>
+    [36m└ [1mBertSelfAttention(
+    [36m  [1m  (query): Linear(in_features=768, out_features=768, bias=True)
+    [36m  [1m)
+  File "/opt/conda/envs/coca/lib/python3.7/site-packages/transformers/configuration_utils.py", line 260, in __getattribute__
+    return super().__getattribute__(key)
+                                    └ 'encoder_width'

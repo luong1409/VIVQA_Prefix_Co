@@ -1,0 +1,101 @@
+[32m2023-05-04 21:51:59.019[39m | [34m[1mDEBUG   [39m[22m | [36m__main__[39m:[36mmain[39m:[36m104[39m - [34m[1mjob dir: /home/vqa_mplug
+[32m2023-05-04 21:51:59.020[39m | [34m[1mDEBUG   [39m[22m | [36m__main__[39m:[36mmain[39m:[36m105[39m - [34m[1mNamespace(accum_iter=1,
+[34m[1mbase_lr=0.0005,
+[34m[1mbatch_size=16,
+[34m[1mcheckpoint_path='',
+[34m[1mdata_root='',
+[34m[1mdataset_names=['custom'],
+[34m[1mdevice='cuda',
+[34m[1mepochs=10,
+[34m[1mlr=None,
+[34m[1mmodel='',
+[34m[1mnum_workers=4,
+[34m[1moutput_dir='./result',
+[34m[1mpin_memory=True,
+[34m[1mprint_every=1,
+[34m[1mrandom_prefix_len=False,
+[34m[1mresume=None,
+[34m[1mrun_id=None,
+[34m[1mrun_name='',
+[34m[1msave_every=1,
+[34m[1mseed=0,
+[34m[1mstart_epoch=0,
+[34m[1mwarmup_steps=3000)
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 41886/41886 [00:00<00:00, 254394.96it/s]
+Using cache
+Using cache
+100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 10472/10472 [00:00<00:00, 260125.74it/s]
+[32m2023-05-04 21:52:08.744[39m | [31m[1mERROR   [39m[22m | [36m__main__[39m:[36m<module>[39m:[36m301[39m - [31m[1mSomething wrong
+[33m[1mTraceback (most recent call last):
+  File "/opt/conda/envs/coca/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+                └ ModuleSpec(name='__main__', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7fe25cc5b550>, origin='/root/.vsc...
+  File "/opt/conda/envs/coca/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+         │     └ {'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader objec...
+         └ <code object <module> at 0x7fe25bdca780, file "/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/pyth...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/[1m__main__.py[39m[22m", line [33m39[39m, in [35m<module>
+    [1mcli[35m.[39mmain()
+    [36m│   └ [1m<function main at 0x7fe25a8f0050>
+    [36m└ [1m<module 'debugpy.server.cli' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/a...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/[1mcli.py[39m[22m", line [33m430[39m, in [35mmain
+    [1mrun()
+    [36m└ [1m<function run_file at 0x7fe25a8eedd0>
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/adapter/../../debugpy/launcher/../../debugpy/../debugpy/server/[1mcli.py[39m[22m", line [33m284[39m, in [35mrun_file
+    [1mrunpy[35m.[39mrun_path(target,[22m [1mrun_name[35m=[36m[22m"__main__"[39m[1m)
+    [36m│     │        └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m│     └ [1m<function run_path at 0x7fe25ad09a70>
+    [36m└ [1m<module '_pydevd_bundle.pydevd_runpy' from '/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/...
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m322[39m, in [35mrun_path
+    [1mpkg_name[35m=[39mpkg_name,[22m [1mscript_name[35m=[39mfname)
+    [36m         │                     └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m         └ [1m''
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m136[39m, in [35m_run_module_code
+    [1mmod_name,[22m [1mmod_spec,[22m [1mpkg_name,[22m [1mscript_name)
+    [36m│         │         │         └ [1m'/home/vqa_mplug/pretrain.py'
+    [36m│         │         └ [1m''
+    [36m│         └ [1mNone
+    [36m└ [1m'__main__'
+  File "[32m/root/.vscode-server/extensions/ms-python.python-2023.8.0/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_bundle/[1mpydevd_runpy.py[39m[22m", line [33m124[39m, in [35m_run_code
+    [1mexec(code,[22m [1mrun_globals)
+    [36m     │     └ [1m{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': None, '__spec__': None, '__file__': '/home/vqa_mpl...
+    [36m     └ [1m<code object <module> at 0x7fe2598ae780, file "/home/vqa_mplug/pretrain.py", line 1>
+> File "[32m/home/vqa_mplug/[1mpretrain.py[39m[22m", line [33m298[39m, in [35m<module>
+    [1mmain(args,[22m [1mrun)
+    [36m│    │     └ [1m<wandb.sdk.wandb_run.Run object at 0x7fe12a9750d0>
+    [36m│    └ [1mNamespace(accum_iter=1, base_lr=0.0005, batch_size=16, checkpoint_path='', data_root='', dataset_names=['custom'], device='cu...
+    [36m└ [1m<function main at 0x7fe12aa62c20>
+  File "[32m/home/vqa_mplug/[1mpretrain.py[39m[22m", line [33m155[39m, in [35mmain
+    [1mmodel[22m [35m[1m=[39m[22m [1mMPlugForImageCaption(config[35m=[39mconfig)
+    [36m        │                           └ [1mMPlugConfig {
+    [36m        │                             [1m  "add_object": false,
+    [36m        │                             [1m  "add_ocr": false,
+    [36m        │                             [1m  "alpha": 0.4,
+    [36m        │                             [1m  "attention_probs_dropout_prob": 0.0,
+    [36m        │                             [1m  "batch_size...
+    [36m        └ [1m<class 'model.modeling_mplug.MPlugForImageCaption'>
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m2133[39m, in [35m__init__
+    [1msuper()[35m.[39m__init__(config)
+    [36m                 └ [1mMPlugConfig {
+    [36m                   [1m  "add_object": false,
+    [36m                   [1m  "add_ocr": false,
+    [36m                   [1m  "alpha": 0.4,
+    [36m                   [1m  "attention_probs_dropout_prob": 0.0,
+    [36m                   [1m  "batch_size...
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m1839[39m, in [35m__init__
+    [1mself[35m.[39mvisual_encoder[22m [35m[1m=[39m[22m [1mself[35m.[39m_initialize_clip(config)
+    [36m│                     │    │                └ [1mMPlugConfig {
+    [36m│                     │    │                  [1m  "add_object": false,
+    [36m│                     │    │                  [1m  "add_ocr": false,
+    [36m│                     │    │                  [1m  "alpha": 0.4,
+    [36m│                     │    │                  [1m  "attention_probs_dropout_prob": 0.0,
+    [36m│                     │    │                  [1m  "batch_size...
+    [36m│                     │    └ [1m<staticmethod object at 0x7fe12ab23e10>
+    [36m│                     └ [1mMPlugForImageCaption(
+    [36m│                       [1m  (visn_fc): Linear(in_features=1024, out_features=768, bias=True)
+    [36m│                       [1m  (visn_layer_norm): LayerNorm((768,...
+    [36m└ [1mMPlugForImageCaption(
+    [36m  [1m  (visn_fc): Linear(in_features=1024, out_features=768, bias=True)
+    [36m  [1m  (visn_layer_norm): LayerNorm((768,...
+  File "[32m/home/vqa_mplug/model/[1mmodeling_mplug.py[39m[22m", line [33m1902[39m, in [35m_initialize_clip
+    [35m[1mfrom[39m[22m [35m[1m..[39mclip[22m [35m[1mimport[39m[22m [1mclip
